@@ -1,3 +1,4 @@
+_extends: .github
 repository:
   name: remark-lint-preset
   description: remark preset to configure remark-lint with markdown style conventions
