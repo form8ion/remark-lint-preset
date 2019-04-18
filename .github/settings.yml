@@ -1,0 +1,5 @@
+repository:
+  name: remark-lint-preset
+  description: remark preset to configure remark-lint with markdown style conventions
+  homepage: 'https://npm.im/@form8ion/remark-lint-preset'
+  private: false
