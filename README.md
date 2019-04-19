@@ -1,7 +1,5 @@
 # remark-preset-lint
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/remark-lint-preset.svg)](https://greenkeeper.io/)
-
 [remark](https://github.com/remarkjs/remark) [preset](https://github.com/remarkjs/remark/blob/master/doc/plugins.md#list-of-presets)
 to configure [remark-lint](https://github.com/remarkjs/remark-lint) with
 markdown style conventions
@@ -42,6 +40,7 @@ Add an npm script that will run as part of `npm test`:
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/remark-lint-preset.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
