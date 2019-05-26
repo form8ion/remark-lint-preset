@@ -21,7 +21,7 @@
     "lint:travis": "travis-lint .travis.yml"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
+    "@commitlint/cli": "^8.0.0",
     "@form8ion/commitlint-config": "1.0.3",
     "@travi/any": "^2.0.0",
     "ban-sensitive-files": "^1.9.2",
