@@ -16,7 +16,7 @@ markdown style conventions
 ### Installation
 
 ```sh
-$ npm install remark remark-cli @form8ion/remark-preset-lint --dev
+$ npm install remark remark-cli @form8ion/remark-preset-lint --save-dev
 ```
 
 ### Configure
