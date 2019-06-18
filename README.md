@@ -1,4 +1,4 @@
-# remark-preset-lint
+# remark-lint-preset
 
 [remark](https://github.com/remarkjs/remark) [preset](https://github.com/remarkjs/remark/blob/master/doc/plugins.md#list-of-presets)
 to configure [remark-lint](https://github.com/remarkjs/remark-lint) with
@@ -16,7 +16,7 @@ markdown style conventions
 ### Installation
 
 ```sh
-$ npm install remark remark-cli @form8ion/remark-preset-lint --save-dev
+$ npm install remark remark-cli @form8ion/remark-lint-preset --save-dev
 ```
 
 ### Configure
@@ -24,7 +24,7 @@ $ npm install remark remark-cli @form8ion/remark-preset-lint --save-dev
 Add to the project's `.remarkrc.js`:
 
 ```js
-exports.plugins = ['@form8ion/remark-preset-lint'];
+exports.plugins = ['@form8ion/remark-lint-preset'];
 ```
 
 Add an npm script that will run as part of `npm test`:
@@ -55,12 +55,12 @@ $ npm install
 $ npm test
 ```
 
-[npm-link]: https://www.npmjs.com/package/@form8ion/remark-preset-lint
-[npm-badge]: https://img.shields.io/npm/v/@form8ion/remark-preset-lint.svg
+[npm-link]: https://www.npmjs.com/package/@form8ion/remark-lint-preset
+[npm-badge]: https://img.shields.io/npm/v/@form8ion/remark-lint-preset.svg
 [license-link]: LICENSE
-[license-badge]: https://img.shields.io/github/license/form8ion/remark-preset-lint.svg
-[ci-link]: https://travis-ci.com/form8ion/remark-preset-lint
-[ci-badge]: https://img.shields.io/travis/com/form8ion/remark-preset-lint/master.svg
+[license-badge]: https://img.shields.io/github/license/form8ion/remark-lint-preset.svg
+[ci-link]: https://travis-ci.com/form8ion/remark-lint-preset
+[ci-badge]: https://img.shields.io/travis/com/form8ion/remark-lint-preset/master.svg
 [commit-convention-link]: https://conventionalcommits.org
 [commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
 [commitizen-link]: http://commitizen.github.io/cz-cli/
