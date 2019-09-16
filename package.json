@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
-    "@form8ion/commitlint-config": "1.0.6",
+    "@form8ion/commitlint-config": "1.0.7",
     "@travi/any": "^2.0.0",
     "ban-sensitive-files": "^1.9.2",
     "cz-conventional-changelog": "^3.0.1",
