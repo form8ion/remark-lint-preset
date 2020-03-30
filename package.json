@@ -32,6 +32,6 @@
     "travis-lint": "^1.0.0"
   },
   "dependencies": {
-    "remark-preset-lint-travi": "1.3.4"
+    "remark-preset-lint-travi": "1.3.5"
   }
 }
