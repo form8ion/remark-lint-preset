@@ -25,7 +25,7 @@
   "devDependencies": {
     "@commitlint/cli": "9.1.1",
     "@form8ion/commitlint-config": "1.0.11",
-    "@form8ion/eslint-config": "1.6.24",
+    "@form8ion/eslint-config": "1.6.25",
     "@travi/any": "2.0.10",
     "ban-sensitive-files": "1.9.7",
     "cz-conventional-changelog": "3.2.0",
