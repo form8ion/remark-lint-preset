@@ -23,7 +23,7 @@
     "lint:travis": "travis-lint .travis.yml"
   },
   "devDependencies": {
-    "@commitlint/cli": "9.1.2",
+    "@commitlint/cli": "11.0.0",
     "@form8ion/commitlint-config": "1.0.12",
     "@form8ion/eslint-config": "1.6.29",
     "@travi/any": "2.0.12",
