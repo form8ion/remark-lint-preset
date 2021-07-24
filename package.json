@@ -22,7 +22,7 @@
     "lint:peer": "npm ls >/dev/null"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
+    "@commitlint/cli": "13.1.0",
     "@form8ion/commitlint-config": "1.0.19",
     "@form8ion/eslint-config": "1.7.23",
     "@travi/any": "2.0.17",
