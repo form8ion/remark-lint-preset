@@ -30,12 +30,14 @@ $ npm install remark remark-cli @form8ion/remark-lint-preset --save-dev
 Add to the project's `.remarkrc.js`:
 
 ```js
-exports.plugins = ['@form8ion/remark-lint-preset'];
+export default {plugins: ['@form8ion/remark-lint-preset']};
 ```
 
 Add an npm script that will run as part of `npm test`:
 
+```json
     "lint:md": "remark --frail ."
+```
 
 ## Contributing
 

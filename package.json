@@ -1,6 +1,10 @@
 {
   "name": "@form8ion/remark-lint-preset",
   "description": "remark preset to configure remark-lint with markdown style conventions",
+  "type": "module",
+  "engines": {
+    "node": ">12.17"
+  },
   "license": "MIT",
   "version": "0.0.0-semantically-released",
   "sideEffects": false,
