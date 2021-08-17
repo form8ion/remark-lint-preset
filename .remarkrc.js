@@ -1,1 +1,1 @@
-exports.plugins = ['.'];
+export default {plugins: ['./index.js']};
