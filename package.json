@@ -2,6 +2,7 @@
   "name": "@form8ion/remark-lint-preset",
   "description": "remark preset to configure remark-lint with markdown style conventions",
   "type": "module",
+  "exports": "./index.js",
   "engines": {
     "node": ">12.17"
   },
