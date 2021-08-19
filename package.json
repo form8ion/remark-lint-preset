@@ -39,6 +39,7 @@
     "remark-cli": "10.0.0"
   },
   "dependencies": {
+    "remark-gfm": "^2.0.0",
     "remark-lint-final-definition": "3.0.1",
     "remark-lint-list-item-indent": "3.0.1",
     "remark-lint-maximum-line-length": "3.0.1",

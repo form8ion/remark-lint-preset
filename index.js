@@ -7,9 +7,11 @@ import remarkLintMaximumLineLength from 'remark-lint-maximum-line-length';
 import remarkLintOrderedListMarkerValue from 'remark-lint-ordered-list-marker-value';
 import remarkLintNoEmptyUrl from 'remark-lint-no-empty-url';
 import remarkLintUnorderedListMarkerStyle from 'remark-lint-unordered-list-marker-style';
+import remarkGithubFlavoredMarkdown from 'remark-gfm';
 
 export default {
   plugins: [
+    remarkGithubFlavoredMarkdown,
     remarkPresetLintRecommended,
     [remarkLintListItemIndent, 'space'],
     remarkLintNoTabs,
