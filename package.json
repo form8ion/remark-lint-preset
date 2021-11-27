@@ -31,7 +31,7 @@
     "@commitlint/cli": "15.0.0",
     "@form8ion/commitlint-config": "1.0.23",
     "@form8ion/eslint-config": "1.9.0",
-    "@travi/any": "2.0.18",
+    "@travi/any": "2.0.19",
     "ban-sensitive-files": "1.9.16",
     "cz-conventional-changelog": "3.3.0",
     "husky": "7.0.4",
