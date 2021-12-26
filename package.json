@@ -28,7 +28,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "15.0.0",
+    "@commitlint/cli": "16.0.0",
     "@form8ion/commitlint-config": "1.0.23",
     "@form8ion/eslint-config": "2.0.2",
     "@travi/any": "2.0.19",
