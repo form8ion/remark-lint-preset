@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "16.0.2",
-    "@form8ion/commitlint-config": "1.0.25",
+    "@form8ion/commitlint-config": "1.0.26",
     "@form8ion/eslint-config": "2.0.3",
     "@travi/any": "2.0.19",
     "ban-sensitive-files": "1.9.16",
