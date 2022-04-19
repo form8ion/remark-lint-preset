@@ -23,7 +23,7 @@ jobs:
           node-version-file: .nvmrc
       - run: npm clean-install
       - run: npm test
-  verify-matix:
+  verify-matrix:
     runs-on: ubuntu-latest
     strategy:
       matrix:
