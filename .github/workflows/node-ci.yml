@@ -3,7 +3,6 @@ name: Node.js CI
   push:
     branches:
       - master
-      - alpha
       - beta
       - renovate/**
   pull_request:
@@ -18,30 +17,43 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: nvm
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@v1
+          node-version-file: .nvmrc
+      - run: npm clean-install
       - run: npm test
-  release:
-    needs: verify
+  verify-matix:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node:
+          - 12.18.0
+          - 14
+          - 16
     steps:
       - uses: actions/checkout@v3
-      - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: nvm
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@v1
-      - name: semantic-release
-        run: npx semantic-release
+          node-version: ${{ matrix.node }}
+      - run: npm clean-install
+      - run: npm test
+  trigger-release:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    needs:
+      - verify
+      - verify-matrix
+    steps:
+      - uses: octokit/request-action@v2.x
+        with:
+          route: >-
+            POST
+            /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches
+          owner: form8ion
+          repo: remark-lint-preset
+          ref: ${{ github.ref }}
+          workflow_id: release.yml
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
