@@ -29,7 +29,7 @@
     "lint:engines": "ls-engines"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.3",
+    "@commitlint/cli": "16.2.4",
     "@form8ion/commitlint-config": "1.0.30",
     "@form8ion/eslint-config": "5.0.0",
     "@travi/any": "2.0.20",
