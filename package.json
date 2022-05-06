@@ -4,7 +4,7 @@
   "type": "module",
   "exports": "./index.js",
   "engines": {
-    "node": ">=14.13.1"
+    "node": "^14.15 || >=16"
   },
   "license": "MIT",
   "version": "0.0.0-semantically-released",
