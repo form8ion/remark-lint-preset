@@ -1,24 +1,18 @@
 {
   "name": "@form8ion/remark-lint-preset",
   "description": "remark preset to configure remark-lint with markdown style conventions",
+  "license": "MIT",
+  "version": "0.0.0-semantically-released",
   "type": "module",
-  "exports": "./index.js",
   "engines": {
     "node": "^14.15 || >=16"
   },
-  "license": "MIT",
-  "version": "0.0.0-semantically-released",
-  "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "index.js"
-  ],
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "form8ion/remark-lint-preset",
   "bugs": "https://github.com/form8ion/remark-lint-preset/issues",
   "homepage": "https://npm.im/@form8ion/remark-lint-preset",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "exports": "./index.js",
+  "sideEffects": false,
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:js": "eslint . --cache",
@@ -28,17 +22,11 @@
     "prepare": "husky install",
     "lint:engines": "ls-engines"
   },
-  "devDependencies": {
-    "@commitlint/cli": "17.4.2",
-    "@form8ion/commitlint-config": "1.0.43",
-    "@form8ion/eslint-config": "5.0.23",
-    "@travi/any": "2.1.6",
-    "ban-sensitive-files": "1.9.18",
-    "cz-conventional-changelog": "3.3.0",
-    "husky": "8.0.3",
-    "ls-engines": "0.9.0",
-    "npm-run-all": "4.1.5",
-    "remark-cli": "11.0.0"
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "remark-gfm": "^3.0.0",
@@ -51,5 +39,17 @@
     "remark-lint-unordered-list-marker-style": "3.1.1",
     "remark-preset-lint-recommended": "6.1.2",
     "remark-validate-links": "12.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.4.2",
+    "@form8ion/commitlint-config": "1.0.43",
+    "@form8ion/eslint-config": "5.0.23",
+    "@travi/any": "2.1.6",
+    "ban-sensitive-files": "1.9.18",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "8.0.3",
+    "ls-engines": "0.9.0",
+    "npm-run-all": "4.1.5",
+    "remark-cli": "11.0.0"
   }
 }
