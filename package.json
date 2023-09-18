@@ -31,7 +31,7 @@
     "provenance": true
   },
   "dependencies": {
-    "remark-gfm": "^3.0.0",
+    "remark-gfm": "^4.0.0",
     "remark-lint-final-definition": "3.1.2",
     "remark-lint-list-item-indent": "3.1.2",
     "remark-lint-maximum-line-length": "3.1.3",
