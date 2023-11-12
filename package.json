@@ -43,7 +43,7 @@
     "remark-validate-links": "13.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.0",
+    "@commitlint/cli": "18.4.1",
     "@form8ion/commitlint-config": "1.0.62",
     "@form8ion/eslint-config": "7.0.4",
     "@travi/any": "3.0.2",
