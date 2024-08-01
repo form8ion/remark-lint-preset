@@ -13,7 +13,7 @@ export default {
   plugins: [
     remarkGithubFlavoredMarkdown,
     remarkPresetLintRecommended,
-    [remarkLintListItemIndent, 'space'],
+    [remarkLintListItemIndent, 'one'],
     remarkLintNoTabs,
     remarkLintFinalDefinition,
     remarkValidateLinks,
