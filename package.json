@@ -32,14 +32,14 @@
   },
   "dependencies": {
     "remark-gfm": "^4.0.0",
-    "remark-lint-final-definition": "4.0.1",
-    "remark-lint-list-item-indent": "4.0.0",
-    "remark-lint-maximum-line-length": "4.0.1",
-    "remark-lint-no-empty-url": "4.0.0",
-    "remark-lint-no-tabs": "4.0.0",
-    "remark-lint-ordered-list-marker-value": "4.0.0",
-    "remark-lint-unordered-list-marker-style": "4.0.0",
-    "remark-preset-lint-recommended": "7.0.0",
+    "remark-lint-final-definition": "4.0.2",
+    "remark-lint-list-item-indent": "4.0.1",
+    "remark-lint-maximum-line-length": "4.1.1",
+    "remark-lint-no-empty-url": "4.0.1",
+    "remark-lint-no-tabs": "4.0.1",
+    "remark-lint-ordered-list-marker-value": "4.0.1",
+    "remark-lint-unordered-list-marker-style": "4.0.1",
+    "remark-preset-lint-recommended": "7.0.1",
     "remark-validate-links": "13.0.2"
   },
   "devDependencies": {
