@@ -43,7 +43,7 @@
     "remark-validate-links": "13.1.0"
   },
   "devDependencies": {
-    "@form8ion/commitlint-config": "2.0.11",
+    "@form8ion/commitlint-config": "2.0.12",
     "@form8ion/eslint-config": "7.0.14",
     "@travi/any": "3.3.0",
     "ban-sensitive-files": "1.10.11",
