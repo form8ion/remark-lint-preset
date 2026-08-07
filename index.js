@@ -21,7 +21,7 @@ export default {
     [remarkLintMaximumLineLength, 80],
     [remarkLintOrderedListMarkerValue, 'one'],
     remarkLintNoEmptyUrl,
-    [remarkLintUnorderedListMarkerStyle, '*'],
+    [remarkLintUnorderedListMarkerStyle, '-'],
     remarkLintTableCellPadding
   ]
 };
